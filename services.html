@@ -517,6 +517,14 @@
 
     <!-- template js -->
     <script src="assets/js/oslim.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const footer_city_info = document.querySelector("#footer_city_infos");
+            const year = new Date().getFullYear();
+
+            footer_city_info.textContent = `© ${year} - Citybens Negócios - Todos os direitos reservados | Rua Luiz Pereira Barreto, 191 - Centro - Araçatuba/SP | CNPJ: 15.321.582./0001-85`;
+        });
+    </script>
 </body>
 
 </html>
