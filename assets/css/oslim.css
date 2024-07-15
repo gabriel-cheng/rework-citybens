@@ -1,7 +1,8 @@
 @import url("./city.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --oslim-font: 'Catamaran', sans-serif;
+    --oslim-font: 'Montserrat', sans-serif;
     --oslim-reey-font: "reeyregular";
     --oslim-gray: #81808c;
     --oslim-gray-rgb: 129, 128, 140;
@@ -288,8 +289,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .section-title__title {
     margin: 0;
-    font-size: 55px;
-    line-height: 65px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
@@ -2576,6 +2576,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .work-together__right-text {
     margin: 0;
+    font-size: 16px;
 }
 
 .work-together__points {
@@ -2776,10 +2777,9 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .case-one__tagline {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
     margin: 0;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -2790,7 +2790,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .case-one__title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     line-height: 34px;
     margin-top: 4px;
