@@ -282,7 +282,6 @@ input[type="search"]::-webkit-search-results-decoration {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin-bottom: 10px;
-    background-color: var(--oslim-extra);
     padding: 4px 20px 3px;
     border-radius: 15px;
 }
@@ -2405,7 +2404,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 32px;
     width: 45px;
-    background-color: var(--oslim-extra);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2816,7 +2814,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 32px;
     width: 45px;
-    background-color: var(--oslim-extra);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2964,7 +2961,6 @@ input[type="search"]::-webkit-search-results-decoration {
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     border-radius: var(--oslim-bdr-radius);
-    background-color: var(--oslim-extra);
 }
 
 .faq-one-accrodion .accrodion.active {
@@ -3636,7 +3632,6 @@ input[type="search"]::-webkit-search-results-decoration {
     max-width: 100%;
     width: 100%;
     float: left;
-    background-color: var(--oslim-extra);
     border-radius: var(--oslim-bdr-radius);
     padding: 40px 50px 31px;
     margin-bottom: 30px;
@@ -3735,7 +3730,6 @@ input[type="search"]::-webkit-search-results-decoration {
     right: 0;
     content: "";
     height: 523px;
-    background-color: var(--oslim-extra);
     z-index: -1;
 }
 
@@ -3875,7 +3869,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .news-one__sub-title {
     position: relative;
     display: inline-block;
-    background-color: var(--oslim-extra);
     font-size: 12px;
     color: var(--oslim-base);
     font-weight: 600;
@@ -4335,7 +4328,6 @@ input[type="search"]::-webkit-search-results-decoration {
     bottom: -120px;
     left: -1000000px;
     right: 270px;
-    background-color: var(--oslim-extra);
     content: "";
     z-index: -1;
 }
@@ -4426,7 +4418,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 170px;
     width: 195px;
-    background-color: var(--oslim-extra);
     border-radius: var(--oslim-bdr-radius);
     display: flex;
     align-items: center;
@@ -4543,7 +4534,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .quality-work {
     position: relative;
     display: block;
-    background-color: var(--oslim-extra);
     padding: 120px 0 120px;
     overflow: hidden;
     z-index: 1;
@@ -4968,7 +4958,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 32px;
     width: 45px;
-    background-color: var(--oslim-extra);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -5092,7 +5081,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .why-choose-one {
     position: relative;
     display: block;
-    background-color: var(--oslim-extra);
     padding: 120px 0 0;
     overflow: hidden;
     z-index: 1;
@@ -5647,7 +5635,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .services-two {
     position: relative;
     display: block;
-    background-color: var(--oslim-extra);
     padding: 120px 0 90px;
 }
 
@@ -5770,7 +5757,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 32px;
     width: 45px;
-    background-color: var(--oslim-extra);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -5937,7 +5923,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     width: 100%;
     height: 13px;
-    background-color: var(--oslim-extra);
     border-radius: 30px;
 }
 
@@ -6047,7 +6032,6 @@ input[type="search"]::-webkit-search-results-decoration {
     right: -35px;
     width: 5px;
     height: 278px;
-    background-color: var(--oslim-extra);
     border-radius: var(--oslim-bdr-radius);
     content: "";
     z-index: 2;
@@ -6114,7 +6098,6 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .case-three .section-title__tagline {
-    background-color: var(--oslim-extra);
 }
 
 .case-three .case-one__content {
@@ -6171,7 +6154,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 185px;
     width: 185px;
-    background-color: var(--oslim-extra);
     border-radius: 50%;
     font-size: 65px;
     color: var(--oslim-base);
@@ -6223,7 +6205,6 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .how-we-works__single:hover .how-we-works__count {
-    background-color: var(--oslim-extra);
 }
 
 .how-we-works__count:before {
@@ -6265,7 +6246,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .testimonial-three {
     position: relative;
     display: block;
-    background-color: var(--oslim-extra);
     padding: 120px 0 120px;
     overflow: hidden;
     z-index: 1;
@@ -6451,7 +6431,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .brand-two {
     position: relative;
     display: block;
-    background-color: var(--oslim-extra);
     overflow: hidden;
     z-index: 1;
 }
@@ -6953,7 +6932,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .news-sidebar__sub-title {
     position: relative;
     display: inline-block;
-    background-color: var(--oslim-extra);
     font-size: 12px;
     color: var(--oslim-base);
     font-weight: 600;
@@ -7028,7 +7006,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 32px;
     width: 45px;
-    background-color: var(--oslim-extra);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7159,7 +7136,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     display: block;
     padding: 47px 30px 30px;
-    background-color: var(--oslim-extra);
     border-radius: var(--oslim-bdr-radius);
 }
 
@@ -7235,7 +7211,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .sidebar__category {
     position: relative;
     display: block;
-    background-color: var(--oslim-extra);
     padding: 47px 20px 39px;
     border-radius: var(--oslim-bdr-radius);
 }
@@ -7439,7 +7414,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .news-details__sub-title {
     position: relative;
     display: inline-block;
-    background-color: var(--oslim-extra);
     font-size: 12px;
     color: var(--oslim-base);
     font-weight: 600;
@@ -7565,7 +7539,6 @@ input[type="search"]::-webkit-search-results-decoration {
     text-align: center;
     color: var(--oslim-black);
     font-size: 15px;
-    background-color: var(--oslim-extra);
     overflow: hidden;
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
@@ -7636,7 +7609,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .news-details__pagenation li {
     position: relative;
     color: var(--oslim-black);
-    background-color: var(--oslim-extra);
     line-height: 1.8em;
     font-weight: 700;
     -webkit-transition: all 500ms ease;
@@ -7747,7 +7719,6 @@ input[type="search"]::-webkit-search-results-decoration {
     height: 70px;
     width: 100%;
     border: none;
-    background-color: var(--oslim-extra);
     padding-left: 30px;
     padding-right: 30px;
     border-radius: var(--oslim-bdr-radius);
@@ -7763,7 +7734,6 @@ input[type="search"]::-webkit-search-results-decoration {
     color: var(--oslim-gray);
     height: 150px;
     width: 100%;
-    background-color: var(--oslim-extra);
     padding: 18px 30px 30px;
     border: none;
     border-radius: 0px;
@@ -8020,7 +7990,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 32px;
     width: 45px;
-    background-color: var(--oslim-extra);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8043,7 +8012,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 32px;
     width: 45px;
-    background-color: var(--oslim-extra);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8105,7 +8073,6 @@ input[type="search"]::-webkit-search-results-decoration {
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     display: block;
-    background-color: var(--oslim-extra);
     border-radius: var(--oslim-bdr-radius);
     padding: 19px 40px;
 }
@@ -8529,7 +8496,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     display: block;
     padding: 120px 0 100px;
-    background-color: var(--oslim-extra);
 }
 
 .faq-page__single {
@@ -8640,7 +8606,6 @@ input[type="search"]::-webkit-search-results-decoration {
     width: 100%;
     border: none;
     outline: none;
-    background-color: var(--oslim-extra);
     font-size: 18px;
     color: var(--qutiiz-gray);
     font-weight: 400;
