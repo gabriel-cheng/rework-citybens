@@ -78,6 +78,25 @@ p {
     margin-bottom: 60px;
 }
 
+.btn_simulacao {
+    background-color: var(--city-blue);
+    border: 1px solid var(--city-blue);
+}
+
+.btn_simulacao a {
+    color: white;
+}
+
+.btn_simulacao:hover {
+    background-color: var(--city-green);
+    color: var(--city-blue);
+}
+
+.btn_simulacao > a:hover {
+    background-color: var(--city-green);
+    color: var(--city-blue);
+}
+
 @media screen and (max-width: 767px) {
     .image-layer {
         background-image: url(../images/backgrounds/city_banner_responsivo_inicial_alt.jpg);
