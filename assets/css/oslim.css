@@ -559,6 +559,11 @@ input[type="search"]::-webkit-search-results-decoration {
     background-color: var(--oslim-black);
 }
 
+.main-menu .main-menu__list ul {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
 .main-menu .main-menu__list,
 .main-menu .main-menu__list ul,
 .stricky-header .main-menu__list,
