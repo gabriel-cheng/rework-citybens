@@ -2682,7 +2682,7 @@ input[type="search"]::-webkit-search-results-decoration {
     left: 0;
     right: 0;
     height: 512px;
-    background-color: var(--oslim-extra);
+    background-color: #f8f8f8;
     content: "";
     z-index: -1;
 }
