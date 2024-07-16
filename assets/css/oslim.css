@@ -7956,8 +7956,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     display: block;
     text-align: center;
-    border-top: 1px solid #dcdce0;
-    border-bottom: 1px solid #dcdce0;
     padding: 39px 0;
     margin-top: 113px;
 }

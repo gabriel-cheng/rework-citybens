@@ -74,6 +74,10 @@ p {
     background-image: url(../images/backgrounds/city_banner_01_inicial_alt.jpg);
 }
 
+.case-details__pagination-box {
+    margin-bottom: 60px;
+}
+
 @media screen and (max-width: 767px) {
     .image-layer {
         background-image: url(../images/backgrounds/city_banner_responsivo_inicial_alt.jpg);
