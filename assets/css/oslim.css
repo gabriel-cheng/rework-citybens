@@ -443,6 +443,10 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-right: 125px;
 }
 
+.main-menu-wrapper__logo > a > img {
+    max-width: 150px;
+}
+
 .main-menu-wrapper__main-menu {
     position: relative;
     display: block;
@@ -6784,7 +6788,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .page-header__inner h2 {
-    font-size: 55px;
+    font-size: 35px;
     line-height: 65px;
     font-weight: 900;
     margin-top: 18px;
