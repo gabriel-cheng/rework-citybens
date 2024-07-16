@@ -4128,7 +4128,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .footer-widget__explore {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-widget__title {
