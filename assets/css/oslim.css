@@ -443,7 +443,8 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-right: 125px;
 }
 
-.main-menu-wrapper__logo > a > img {
+.main-menu-wrapper__logo > a > img,
+.footer-widget__logo > a > img {
     max-width: 150px;
 }
 

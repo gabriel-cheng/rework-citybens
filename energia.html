@@ -208,6 +208,29 @@
         </section>
         <!--Case Details End-->
 
+        <section id="contato" class="cta-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="cta-one__inner">
+                            <div class="cta-one__inner-content">
+                                <div>
+                                    <h1 class="cta-one__title">Precisa de ajuda?</h1>
+                                    <p style="color: white; font-size: 30px;">Converse com um <span
+                                            style="color: #e8ff01">especialista <br> </span> agora mesmo.</p>
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 20px;">
+                                    <img style="width: 10vw; max-width: 96px;" class="whatsapp-logo" src="/assets/images/icon/city_logoWA.png" alt="">
+                                    <p style="color: white;" class="city_phone_number">+55 18 <span
+                                            style="font-weight: 900;">3117 6414</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!--Site Footer Start-->
         <footer class="site-footer">
             <div class="site-footer__top">
@@ -373,6 +396,14 @@
 
     <!-- template js -->
     <script src="assets/js/oslim.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const footer_city_info = document.querySelector("#footer_city_infos");
+            const year = new Date().getFullYear();
+
+            footer_city_info.textContent = `© ${year} - Citybens Negócios - Todos os direitos reservados | Rua Luiz Pereira Barreto, 191 - Centro - Araçatuba/SP | CNPJ: 15.321.582./0001-85`;
+        });
+    </script>w
 </body>
 
 </html>
