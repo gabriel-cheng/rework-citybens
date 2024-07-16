@@ -85,15 +85,16 @@ p {
 
 .btn_simulacao a {
     color: white;
+    font-weight: 600;
 }
 
 .btn_simulacao:hover {
     background-color: var(--city-green);
     color: var(--city-blue);
+    border: 1px solid var(--city-green);
 }
 
-.btn_simulacao > a:hover {
-    background-color: var(--city-green);
+.btn_simulacao:hover a {
     color: var(--city-blue);
 }
 
