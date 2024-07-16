@@ -2682,10 +2682,6 @@ input[type="search"]::-webkit-search-results-decoration {
     z-index: -1;
 }
 
-.case-one .section-title__tagline {
-    background-color: var(--oslim-white);
-}
-
 .case-one__single {
     position: relative;
     display: block;
@@ -2719,13 +2715,6 @@ input[type="search"]::-webkit-search-results-decoration {
     transform-origin: top;
     border-radius: var(--oslim-bdr-radius);
     z-index: 1;
-}
-
-.case-one__single:hover .case-one__img:before {
-    opacity: 1;
-    -webkit-transform: perspective(400px) rotateX(0deg) scale(1.0);
-    -ms-transform: perspective(400px) rotateX(0deg) scale(1.0);
-    transform: perspective(400px) rotateX(0deg) scale(1.0);
 }
 
 .case-one__img img {
@@ -3266,7 +3255,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .our-mission__title {
-    font-size: 75px;
+    font-size: 45px;
     color: var(--oslim-white);
     font-weight: 800;
     line-height: 80px;
