@@ -113,19 +113,25 @@ p {
     font-weight: 600 !important;
 }
 
+@media screen and (max-width: 592px) {
+    .main-slider__content > p {
+        font-size: 7vw;
+        line-height: initial;
+    }
+}
+
+@media screen and (max-width: 663px) {
+    .section-2-title {
+        font-size: 5vw !important;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .city_case_title h1 {
         font-size: 4vw;
     }
     .image-layer {
         background-image: url(../images/backgrounds/city_banner_responsivo_inicial_alt.jpg);
-    }
-}
-
-@media screen and (max-width: 592px) {
-    .main-slider__content > p {
-        font-size: 7vw;
-        line-height: initial;
     }
 }
 

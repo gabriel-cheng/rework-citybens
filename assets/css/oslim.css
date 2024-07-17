@@ -2521,7 +2521,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .work-together {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 90px 0 90px;
 }
 
 .work-together__left {
@@ -2583,7 +2583,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .work-together__right-text {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .work-together__points {
