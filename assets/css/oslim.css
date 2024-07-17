@@ -683,7 +683,7 @@ input[type="search"]::-webkit-search-results-decoration {
     align-items: flex-start;
     opacity: 0;
     visibility: hidden;
-    transition: 500ms ease;
+    transition: 200ms ease;
     z-index: 99;
     box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1);
     border-radius: var(--oslim-bdr-radius);
