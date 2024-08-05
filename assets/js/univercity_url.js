@@ -1,4 +1,4 @@
-const url = "https://www.google.com"
+const url = "https://live.univercity.com.br/lista-de-espera"
 
 document.addEventListener("DOMContentLoaded", function() {
     const a_univercity = document.querySelectorAll(".univercity-url");
