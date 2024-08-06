@@ -1,10 +1,24 @@
+@import url("./home_sections/nossos_numeros.css");
+@import url("./home_sections/a_citybens.css");
+
 :root {
-    --city-green: #E2DE00;
-    --city-blue: #042AF3;
+    --city-black: #121212;
+    --city-graphite: #212121;
+    --city-green: #f2eeb6;
+    --city-blue: #003459;
+    --city-white: #fff;
 }
 
 p {
     margin: 0;
+}
+
+.header_whatsapp_icon {
+    width: 100%;
+    background-image: url(../images/icon/city_logoWA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .city_bg_blue {
@@ -71,7 +85,7 @@ p {
 }
 
 .image-layer {
-    background-image: url(../images/backgrounds/city_banner_01_inicial_alt.jpg);
+    background-image: url(../images/backgrounds/citybens_consorcios_banner_home.jpg);
 }
 
 .case-details__pagination-box {
