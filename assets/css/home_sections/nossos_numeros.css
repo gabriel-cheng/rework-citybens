@@ -1,0 +1,106 @@
+.city_our-numbers {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url("../../images/backgrounds/citybens_consorcios_bg_numeros_home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.city_our-numbers-subcontainer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city_our-numbers-content {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.city_text {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.city_our-numbers-title p {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+.city_accumulate p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.city_accumulate-value p {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--city-green)
+}
+
+.city_credits {
+    width: 100%;
+    max-width: 600px;
+}
+
+.city_credits p {
+    font-weight: bold;
+}
+
+.city_credits-value {
+    display: flex;
+    justify-content: center;
+    color: var(--city-blue);
+    background-color: var(--city-green);
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+
+.city_credits-value p {
+    display: flex;
+    font-size: 1rem;
+    margin: 0;
+    text-wrap: nowrap;
+}
+
+.city_credits-value-spam {
+    margin: 0 0 0 20px;
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 702px) {
+    .city_our-numbers-content {
+        padding: 0 20px;
+    }
+
+    .city_credits-value p {
+        font-size: 2.2vw;
+        font-weight: 800;
+    }
+
+    .city_credits-value-spam {
+        font-size: 6vw;
+    }
+
+    .city_credits-value {
+        width: 85vw;
+    }
+
+    .city_accumulate-value p {
+        font-size: 10vw;
+    }
+
+    .city_credits p {
+        font-size: 3.2vw;
+    }
+}
