@@ -1,5 +1,7 @@
 @import url("./home_sections/nossos_numeros.css");
 @import url("./home_sections/a_citybens.css");
+@import url("./home_sections/produtos.css");
+@import url("./home_sections/univercity.css");
 
 :root {
     --city-black: #121212;
@@ -7,6 +9,7 @@
     --city-green: #f2eeb6;
     --city-blue: #003459;
     --city-white: #fff;
+    --univercity-green: #0FBF4D;
 }
 
 p {
@@ -14,7 +17,8 @@ p {
 }
 
 .header_whatsapp_icon {
-    width: 100%;
+    width: 80%;
+    height: 80%;
     background-image: url(../images/icon/city_logoWA.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,6 +129,14 @@ p {
 
 .page-header__inner > h2 {
     font-weight: 600 !important;
+}
+
+#cases {
+    background-color: var(--city-black)
+}
+
+#contato {
+    background-color: var(--city-black);
 }
 
 @media screen and (max-width: 592px) {

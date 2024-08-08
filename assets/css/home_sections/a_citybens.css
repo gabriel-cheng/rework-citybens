@@ -13,28 +13,28 @@
 }
 
 .city_citybens-content {
-    width: 100%;
-    max-width: 1200px;
-    display: grid;
-    grid-template-areas:
-        "video text"
-    ;
+    display: flex;
     align-items: center;
     gap: 40px;
+    margin: 0 20px;
 }
 
 .city_citybens-video {
-    grid-area: "video";
-    width: 700px;
+    grid-area: video;
+    width: 100%;
+    max-width: 700px;
+    min-width: 510px;
+    flex: 1;
 }
 
 .city_citybens-text-block {
-    grid-area: "text";
+    grid-area: text;
     max-width: 600px;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    flex: 1;
 }
 
 .city_citybens-pre-title p {
@@ -48,7 +48,6 @@
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
-    text-wrap: nowrap;
 }
 
 .city_citybens-subtitle {
@@ -88,4 +87,21 @@
     background-color: var(--city-blue);
     color: var(--city-white);
     transition: .3s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+    .city_citybens-content {
+        flex-direction: column-reverse;
+    }
+
+    .city_citybens-video {
+        min-width: unset;
+    }
+}
+
+@media screen and (max-width: 529px) {
+    .city_citybens-title h1 {
+        font-size: 6vw;
+        text-wrap: nowrap;
+    }
 }

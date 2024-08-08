@@ -5,6 +5,7 @@
     background-image: url("../../images/backgrounds/citybens_consorcios_bg_numeros_home.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: var(--city-black);
 }
 
 .city_our-numbers-subcontainer {

@@ -1,0 +1,102 @@
+#city_univercity {
+    background-color: var(--city-black);
+    display: flex;
+    justify-content: center;
+}
+
+.city_univercity-subcontainer {
+    background-image: url("../../images/backgrounds/citybens_consorcios_bg_univercity.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 4000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+}
+
+.city_univercity-image img {
+    max-width: 600px;
+    width: 100%;
+}
+
+.city_univercity-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.city_univercity-logo-container img {
+    max-width: 250px;
+    width: 100%;
+}
+
+.city_univercity-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.city_univercity-text {
+    max-width: 600px;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 600;
+    color: var(--city-white);
+}
+
+.city_univercity-text p:first-child {
+    margin-bottom: 20px;
+}
+
+.city_univercity-span {
+    color: var(--univercity-green);
+}
+
+.city_univercity-button a {
+    display: contents;
+}
+
+.city_univercity-button button {
+    background-color: var(--univercity-green);
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: var(--city-blue);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 950px) {
+    .city_univercity-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .city_univercity-subcontainer {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .city_univercity-subcontainer {
+        padding: 20px;
+    }
+
+    .city_univercity-text p {
+        line-height: 25px;
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .city_univercity-button button {
+        letter-spacing: 1px;
+    }
+}
