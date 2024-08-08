@@ -71,6 +71,13 @@
     letter-spacing: 3px;
     font-weight: 700;
     font-size: 0.8rem;
+    transition: .2s ease-in-out;
+}
+
+.city_univercity-button button:hover {
+    background-color: var(--city-white);
+    color: var(--univercity-green);
+    transition: .2s ease-in-out;
 }
 
 @media screen and (max-width: 950px) {
