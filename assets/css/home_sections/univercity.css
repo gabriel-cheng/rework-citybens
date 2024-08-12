@@ -2,14 +2,13 @@
     background-color: var(--city-black);
     display: flex;
     justify-content: center;
-}
-
-.city_univercity-subcontainer {
     background-image: url("../../images/backgrounds/citybens_consorcios_bg_univercity.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    max-width: 4000px;
+}
+
+.city_univercity-subcontainer {
+    max-width: 1200px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -81,6 +80,10 @@
 }
 
 @media screen and (max-width: 950px) {
+    #city_univercity {
+        background-size: cover;
+    }
+
     .city_univercity-button {
         display: flex;
         justify-content: center;

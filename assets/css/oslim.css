@@ -545,7 +545,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .stricky-header.main-menu {
     padding: 0 60px;
-    background-color: var(--oslim-black);
+    background-color: var(--city-graphite);
 }
 
 .main-menu .main-menu__list ul {
@@ -2716,7 +2716,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .case-one__single:hover .case-one__img img {
-    transform: scale(1.1) rotate(2deg);
+    /* transform: scale(1.1) rotate(2deg); */
 }
 
 .case-one__content {
@@ -4012,8 +4012,8 @@ input[type="search"]::-webkit-search-results-decoration {
 .site-footer__top {
     position: relative;
     display: block;
-    background-color: var(--oslim-black);
-    padding: 222px 0 100px;
+    background-color: var(--city-graphite);
+    padding: 160px 0 100px;
     z-index: 1;
 }
 
@@ -4140,7 +4140,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .footer-widget__explore-list li a {
     font-size: 16px;
-    color: #a5a3b5;
+    color: #fff;
     font-weight: 500;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -4221,9 +4221,13 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .footer-widget__contact-text {
     font-weight: 500;
-    color: #a5a3b5;
+    color: #fff;
     line-height: 30px;
     margin: 0;
+}
+
+.footer-widget__contact p {
+    color: white;
 }
 
 .footer-widget__contact-info {
@@ -4261,7 +4265,7 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     display: block;
     background-color: #0a090f;
-    padding: 37px 0;
+    padding: 10px 0;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }

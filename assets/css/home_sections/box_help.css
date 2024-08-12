@@ -1,0 +1,86 @@
+.site-footer {
+    position: relative;
+}
+
+.city_box-help {
+    background-color: var(--city-blue);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1080px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    z-index: 10;
+    padding: 20px 0;
+}
+
+.city_box-text {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.city_box-text p:first-child {
+    font-weight: 800;
+}
+
+.city_box-text-span {
+    font-weight: 700;
+}
+
+.city_box-contact {
+    display: flex;
+    align-items: center;
+}
+
+.city_box-contact-number a {
+    font-size: 2.5rem;
+    color: white;
+    display: block;
+}
+
+.city_box-number-span {
+    font-weight: 700;
+}
+
+.city_box-contact-whatsapp-icon {
+    margin-right: 15px;
+}
+
+.city_box-contact-whatsapp-icon img {
+    max-width: 600px;
+    width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+    /* Ajuste no foter */
+    .site-footer__top {
+        padding: 210px 0 100px !important;
+    }
+
+    .city_box-help {
+        flex-direction: column;
+        max-width: 500px;
+        padding: 20px 20px;
+        align-items: center;
+    }
+
+    .city_box-text {
+        margin-bottom: 30px;
+    }
+
+    .city_box-contact-whatsapp-icon img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .city_box-text p {
+        font-size: 5.5vw;
+    }
+
+    .city_box-contact-number a {
+        font-size: 9vw;
+        text-wrap: nowrap;
+    }
+}

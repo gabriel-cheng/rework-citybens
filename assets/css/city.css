@@ -2,6 +2,8 @@
 @import url("./home_sections/a_citybens.css");
 @import url("./home_sections/produtos.css");
 @import url("./home_sections/univercity.css");
+@import url("./home_sections/companies.css");
+@import url("./home_sections/box_help.css");
 
 :root {
     --city-black: #121212;
@@ -79,6 +81,7 @@ p {
 
 #footer_city_infos {
     font-size: 15px;
+    color: white;
 }
 
 .main-slider__content > p {
