@@ -1,0 +1,341 @@
+.city_institucional-title {
+    font-weight: 800;
+}
+
+.city_inst {
+    background-color: var(--city-black);
+    display: flex;
+    justify-content: center;
+}
+
+.city_inst-span {
+    color: var(--city-green);
+}
+
+.city_inst-block-title h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.city_inst-history-subcontainer {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.city_inst-history {
+    padding-top: 60px;
+}
+
+.city_inst-history-text-container {
+    display: grid;
+    grid-template-areas:
+        "img txt1"
+        "img txt2"
+    ;
+    grid-column-gap: 10vw;
+    margin: 0 20px;
+}
+
+.city_inst-history-banner {
+    grid-area: img;
+}
+
+.city_inst-history-text-block-1 {
+    grid-area: txt1;
+}
+
+.city_inst-history-text-block-2 {
+    grid-area: txt2;
+}
+
+.city_inst-history-block {
+    margin: 0 0 30px 0;
+}
+
+.city_inst-history-text-block-1,
+.city_inst-history-text-block-2 {
+    width: 500px;
+    line-height: 23px;
+    color: white;
+}
+
+.city_inst-record-container {
+    padding-top: 60px;
+}
+
+.city_inst-record-subcontainer {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.city_inst-record-text {
+    max-width: 600px;
+}
+
+.city_inst-record-text-container {
+    display: grid;
+    grid-template-areas:
+        "title img"
+        "b1 img"
+        "num img"
+        "b2 img"
+    ;
+    color: white;
+    align-items: center;
+    margin: 20px;
+}
+
+.city_inst-record-title {
+    grid-area: title;
+}
+
+.city_inst-record-text-block-1 {
+    grid-area: b1;
+    max-width: 600px;
+    text-wrap: balance;
+}
+
+.city_inst-record-number {
+    grid-area: num;
+}
+
+.city_inst-record-text-block-2 {
+    grid-area: b2;
+    max-width: 600px;
+    text-wrap: balance;
+}
+
+.city_inst-record-images {
+    display: flex;
+    position: relative;
+    grid-area: img;
+}
+
+.city_inst-record-images img {
+    max-width: 330px;
+    width: 100%;
+}
+
+.city_inst-record-number h1 {
+    font-size: 3.5rem;
+}
+
+.city_inst-pillars {
+    background-color: var(--city-graphite);
+}
+
+.city_inst-pillars-subcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: 60px 20px;
+}
+
+.city_inst-pillars-title {
+    width: 145px;
+}
+
+.city_inst-youFirst-subcontainer {
+    max-width: 1200px;
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-areas:
+        "img title"
+        "img txt"
+    ;
+    align-items: center;
+    margin: 0 20px;
+    column-gap: 30px;
+}
+
+.city_inst-youFirst-image {
+    grid-area: img;
+}
+
+.city_inst-youFirst-title {
+    grid-area: title;
+}
+
+.city_inst-youFirst-text {
+    max-width: 500px;
+    width: 100%;
+    color: white;
+    grid-area: txt;
+}
+
+.city_inst-youFirst-image img {
+    max-width: 550px;
+    width: 100%;
+}
+
+.city_inst-commitment {
+    padding: 80px 0 170px 0;
+}
+
+.city_inst-commitment-subcontainer {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 20px;
+}
+
+.city_inst-text {
+    width: 500px;
+    margin-right: 90px;
+}
+
+.city_inst-commitment-image img {
+    max-width: 400px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1036px) {
+    .city_inst-history-text-container {
+        grid-column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .city_inst-history-text-container {
+        display: grid;
+        grid-template-areas: 
+            "txt1"
+            "img"
+            "txt2"
+        ;
+        gap: 20px;
+    }
+
+    .city_inst-history-banner {
+        grid-area: img;
+        justify-self: center;
+    }
+
+    .city_inst-history-block-1 {
+        grid-area: txt1;
+    }
+
+    .city_inst-history-block-2 {
+        grid-area: txt2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .city_inst-youFirst-subcontainer {
+        grid-template-areas:
+            "title"
+             "img"
+             "txt"
+        ;
+        justify-content: center;
+    }
+
+    .city_inst-youFirst-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .city_inst-pillars-subcontainer {
+        flex-direction: column;
+    }
+
+    .city_inst-pillars-title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .city_inst-pillars-list ul > li {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 837px) {
+    .city_inst-commitment-subcontainer {
+        position: relative;
+    }
+
+    .city_inst-commitment-image {
+        position: absolute;
+        right: 0;
+        margin-right: -5px;
+    }
+
+    .city_inst-commitment-subcontainer {
+        text-wrap: balance;
+    }
+
+    .city_inst-commitment-text-content {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .city_inst-commitment {
+        padding: 80px 0 220px 0;
+    }
+}
+
+@media screen and (max-width: 644px) {
+    .city_inst-commitment-image img {
+        opacity: 50%;
+    }
+
+    .city_inst-commitment-text {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 537px) {
+    .city_inst-history-title-block-1 h1,
+    .city_inst-history-title-block-2 h1 {
+        font-size: 5.5vw;
+    }
+
+    .city_inst-history-banner img {
+        max-width: 408px;
+        width: 100%;
+    }
+
+    .city_inst-history-text-block-1,
+    .city_inst-history-text-block-2 {
+        width: auto;
+        font-size: 3.5vw;
+    }
+
+    .city_inst-block-title h1 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .city_inst-commitment-text-content p {
+        font-size: 4.5vw;
+    }
+    
+    .city_inst-commitment {
+        padding: 80px 0 210px 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .city_inst-pillars-title h1 {
+        font-size: 7.5vw;
+    }
+
+    .city_inst-commitment {
+        padding: 80px 0 53vw 0;
+    }
+}

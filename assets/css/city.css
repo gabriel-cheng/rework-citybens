@@ -4,6 +4,7 @@
 @import url("./home_sections/univercity.css");
 @import url("./home_sections/companies.css");
 @import url("./home_sections/box_help.css");
+@import url("./institucional/institucional.css");
 
 :root {
     --city-black: #121212;
