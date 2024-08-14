@@ -486,7 +486,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-menu-wrapper__search:hover {
-    color: var(--oslim-base);
+    color: var(--city-green);
 }
 
 .main-menu-wrapper__call {
@@ -531,7 +531,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-menu-wrapper__call-number a:hover {
-    color: var(--oslim-base);
+    color: var(--city-green);
 }
 
 .main-menu-wrapper__call-number p {
@@ -604,7 +604,7 @@ input[type="search"]::-webkit-search-results-decoration {
     content: "";
     height: 1px;
     border-radius: 0px;
-    background-color: var(--oslim-base);
+    background-color: var(--city-green);
     position: absolute;
     bottom: 3px;
     left: 0;
@@ -647,7 +647,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-menu .main-menu__list>li.current>a::before {
-    background-color: var(--oslim-base);
+    background-color: var(--city-green);
 }
 
 .main-menu-three .main-menu__list>li.current>a::before {
@@ -655,7 +655,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-menu .main-menu__list>li:hover>a::before {
-    background-color: var(--oslim-base);
+    background-color: var(--city-green);
 }
 
 .main-menu-three .main-menu__list>li:hover>a::before {
@@ -716,8 +716,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .main-menu .main-menu__list li ul li:hover>a,
 .stricky-header .main-menu__list li ul li:hover>a {
-    background-color: var(--oslim-base);
-    color: var(--oslim-white);
+    background-color: var(--city-green);
+    color: var(--city-blue);
 }
 
 .main-menu .main-menu__list li ul>li:first-child>a,
