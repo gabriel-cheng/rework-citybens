@@ -164,6 +164,9 @@
                                 </p>
                             </div>
                         </div>
+                        <div style="margin-left: 20px;" class="city_prod-card-button-container">
+                            <button class="city_cases-btn-constroen city_cases-btn city_prod-card-button">Depoimento</button>
+                        </div>
                     </div>
                     <div class="city_cases-card">
                         <div class="city_cases-card-bg">
@@ -182,6 +185,9 @@
                                 </p>
                             </div>
                         </div>
+                        <div style="margin: 30px 0 0 20px;" class="city_prod-card-button-container">
+                            <button class="city_cases-btn-mercadao city_cases-btn city_prod-card-button">Depoimento</button>
+                        </div>
                     </div>
                     <div class="city_cases-card">
                         <div class="city_cases-card-bg">
@@ -198,6 +204,33 @@
                                 <p>
                                     Uma parceria com mais de uma década transformando os objetivos dos clientes em realidade.
                                 </p>
+                            </div>
+                        </div>
+                        <div style="margin-left: 20px;" class="city_prod-card-button-container">
+                            <button class="city_cases-btn-magalu city_cases-btn city_prod-card-button">Depoimento</button>
+                        </div>
+                        <div class="city_cases-video-modal-constroen">
+                            <div class="city_case-video-modal-subcontainer">
+                                <iframe src="https://player.vimeo.com/video/984873286?h=98af081087&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Magnólia Dir. Administrativa Costroem"></iframe>
+                                <div class="city_cases-video-modal-close city_cases-video-modal-close-constroen">
+                                    <p>X</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="city_cases-video-modal-mercadao">
+                            <div class="city_case-video-modal-subcontainer">
+                                <iframe src="https://player.vimeo.com/video/839016508?h=fc18e86c2e&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                <div class="city_cases-video-modal-close city_cases-video-modal-close-mercadao">
+                                    <p>X</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="city_cases-video-modal-magalu">
+                            <div class="city_case-video-modal-subcontainer">
+                                <iframe src="https://player.vimeo.com/video/984873219?h=addc74b88d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="width:100%;height:100%;" title="Depoimento Edvaldo Magalu"></iframe>
+                                <div class="city_cases-video-modal-close city_cases-video-modal-close-magalu">
+                                    <p>X</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -364,12 +397,42 @@
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
+    
 
 
 
     <!-- template js -->
     <script src="assets/js/oslim.js"></script>
     <script>
+        const modal_constroen = document.querySelector(".city_cases-video-modal-constroen");
+        const modal_mercadao = document.querySelector(".city_cases-video-modal-mercadao");
+        const modal_magalu = document.querySelector(".city_cases-video-modal-magalu");
+        
+        document.querySelectorAll(".city_cases-btn").forEach(function(button) {
+            button.addEventListener("click", function() {
+                if(button.classList.contains("city_cases-btn-constroen")) {
+                    modal_constroen.style.display = "flex";
+                } else if(button.classList.contains("city_cases-btn-mercadao")) {
+                    modal_mercadao.style.display = "flex";
+                } else if(button.classList.contains("city_cases-btn-magalu")) {
+                    modal_magalu.style.display = "flex";
+                }
+            });
+        });
+
+        document.querySelectorAll(".city_cases-video-modal-close").forEach(function(button) {
+            
+            button.addEventListener("click", function() {
+                if(button.classList.contains("city_cases-video-modal-close-constroen")) {
+                    modal_constroen.style.display = "none";
+                } else if(button.classList.contains("city_cases-video-modal-close-mercadao")) {
+                    modal_mercadao.style.display = "none";
+                } else if(button.classList.contains("city_cases-video-modal-close-magalu")) {
+                    modal_magalu.style.display = "none";
+                }
+            });
+        });
+        
         document.addEventListener("DOMContentLoaded", () => {
             const footer_city_info = document.querySelector("#footer_city_infos");
             const year = new Date().getFullYear();

@@ -66,7 +66,7 @@
 .city_cases-card {
     max-width: 350px;
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-color: var(--city-graphite);
 }
 
@@ -110,6 +110,106 @@
     font-weight: 700;
 }
 
+body {
+    position: relative;
+}
+
+.city_cases-video-modal-constroen,
+.city_cases-video-modal-mercadao,
+.city_cases-video-modal-magalu
+ {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.884);
+    z-index: 999;
+}
+
+.city_case-video-modal-subcontainer {
+    max-width: 900px;
+    width: 100%;
+    max-height: 540px;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.city_cases-video-modal-close {
+    position: absolute;
+    top: -6px;
+    right: 10px;
+    background-color: var(--city-green);
+    min-width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.city_cases-video-modal-close:hover {
+    background-color: var(--city-blue);
+}
+
+.city_cases-video-modal-close p {
+    color: var(--city-black);
+    display: contents;
+}
+
+@media screen and (max-width: 866px) {
+    .city_cases-video-modal-close {
+        top: 1vw;
+    }
+}
+
+@media screen and (max-width: 741px) {
+    .city_cases-video-modal-close {
+        top: 5vw;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .city_cases-video-modal-close {
+        top: 10vw;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .city_cases-video-modal-close {
+        top: 15vw;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .city_cases-video-modal-close {
+        top: 23vw;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .city_cases-video-modal-close {
+        top: 27vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .city_cases-video-modal-close {
+        top: 32vw;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .city_cases-video-modal-close {
+        top: 41vw;
+    }
+}
+
 @media screen and (max-width: 669px) {
     .city_cases-title {
         margin-bottom: 20px;
@@ -121,6 +221,8 @@
     }
 }
 
-@media screen and (max-width: 553px) {
-
+@media screen and (max-width: 381px) {
+    .city_cases-card-desc p {
+        line-height: 20px;
+    }
 }
