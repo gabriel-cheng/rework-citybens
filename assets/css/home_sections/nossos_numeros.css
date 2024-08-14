@@ -11,97 +11,96 @@
 .city_our-numbers-subcontainer {
     width: 100%;
     max-width: 1200px;
-    padding: 40px 0;
+    padding: 40px 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.city_our-numbers-content {
-    height: 430px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
     color: white;
 }
 
-.city_text {
-    text-transform: uppercase;
-    font-weight: 500;
+.city_our-numbers-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .city_our-numbers-title p {
+    margin-bottom: 20px;
+}
+
+.city_our-numbers-title p {
+    text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 3px;
 }
 
-.city_accumulate p {
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
-.city_accumulate-value p {
-    font-size: 3.5rem;
-    font-weight: bold;
-    text-decoration: underline;
-    color: var(--city-green)
-}
-
-.city_credits {
-    width: 100%;
-    max-width: 600px;
-}
-
-.city_credits p {
-    font-weight: bold;
-}
-
-.city_credits-value {
-    display: flex;
-    justify-content: center;
-    color: var(--city-blue);
-    background-color: var(--city-green);
-    padding: 20px 50px;
-    border-radius: 50px;
-}
-
-.city_credits-value p {
-    display: flex;
-    font-size: 1rem;
-    margin: 0;
-    text-wrap: nowrap;
-}
-
-.city_credits-value-spam {
-    margin: 0 0 0 20px;
+.city_our-numbers-text-1 p,
+.city_our-numbers-text-2 p,
+.city_our-numbers-text-3 p {
     font-weight: 800;
-    text-decoration: underline;
-    font-size: 3rem;
+    font-size: 1.7rem;
+}
+
+.city_our-numbers-value h1,
+.city_our-numbers-span {
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: var(--city-green);
+}
+
+.city_our-numbers-span {
+    margin-right: 10px;
+}
+
+.city_our-numbers-text-3 p {
+    margin-top: 10px;
+}
+
+.city_our-numbers-text-3 p {
+    display: flex;
+}
+
+.city_our-numbers-image img {
+    max-width: 400px;
+    width: 100%;
 }
 
 @media screen and (max-width: 702px) {
-    .city_our-numbers-content {
-        padding: 0 20px;
+    .city_our-numbers-text-2 p {
+        font-size: 3.5vw;
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 587px) {
+    .city_our-numbers-span {
+        font-size: 9vw;
     }
 
-    .city_credits-value p {
-        font-size: 2.2vw;
-        font-weight: 800;
+    .city_our-numbers-text-3 p {
+        text-wrap: nowrap;
+        font-size: 4.5vw;
     }
 
-    .city_credits-value-spam {
-        font-size: 6vw;
+    .city_our-numbers-text {
+        gap: 5px;
     }
 
-    .city_credits-value {
-        width: 85vw;
+    .city_our-numbers-text-3 p {
+        margin-top: 0px;
     }
+}
 
-    .city_accumulate-value p {
+@media screen and (max-width: 521px) {
+    .city_our-numbers-value h1 {
         font-size: 10vw;
     }
+}
 
-    .city_credits p {
-        font-size: 3.2vw;
+@media screen and (max-width: 369px) {
+    .city_our-numbers-text-1 p {
+        font-size: 7vw;
     }
 }

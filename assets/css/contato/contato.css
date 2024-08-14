@@ -1,0 +1,25 @@
+.city_ctt-title h1 {
+    font-weight: 700 !important;
+}
+
+.city_ctt-container {
+    padding-bottom: 180px;
+}
+
+.contact-details,
+.contact-details__content {
+    background-color: var(--city-black) !important;
+}
+
+.contact-details__content,
+.contact-details__address {
+    color: white !important;
+}
+
+.contact-details__contact-number-email a {
+    color: white !important;
+}
+
+.contact-details__contact-icon img {
+    max-width: 70px !important;
+}
