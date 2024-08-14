@@ -82,12 +82,10 @@
     grid-template-areas:
         "title img"
         "b1 img"
-        "num img"
-        "b2 img"
     ;
     color: white;
     align-items: center;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 .city_inst-record-title {
@@ -96,16 +94,6 @@
 
 .city_inst-record-text-block-1 {
     grid-area: b1;
-    max-width: 600px;
-    text-wrap: balance;
-}
-
-.city_inst-record-number {
-    grid-area: num;
-}
-
-.city_inst-record-text-block-2 {
-    grid-area: b2;
     max-width: 600px;
     text-wrap: balance;
 }
@@ -245,6 +233,28 @@
     .city_inst-youFirst-title {
         text-align: center;
     }
+
+    .city_inst-record-text-container {
+        grid-template-areas:
+            "title"
+            "img"
+            "b1"
+        ;
+        justify-content: center;
+    }
+
+    .city_inst-record-images {
+        justify-content: center;
+    }
+
+    .city_inst-record-number {
+        font-size: 3.6rem;
+        text-wrap: nowrap;
+    }
+
+    .city_inst-record-text-block-1 {
+        line-height: 23px;
+    }
 }
 
 @media screen and (max-width: 870px) {
@@ -320,6 +330,12 @@
     }
 }
 
+@media screen and (max-width: 467px) {
+    .city_inst-record-number {
+        font-size: 13vw;
+    }
+}
+
 @media screen and (max-width: 431px) {
     .city_inst-commitment-text-content p {
         font-size: 4.5vw;
@@ -327,6 +343,11 @@
     
     .city_inst-commitment {
         padding: 80px 0 210px 0;
+    }
+
+    .city_inst-record-text-block-1 p {
+        font-size: 4vw;
+        text-wrap: balance;
     }
 }
 

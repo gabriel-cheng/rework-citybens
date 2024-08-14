@@ -1,3 +1,141 @@
+.city_prod-products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--city-black);
+}
+
+.city_prod-subcontainer {
+    max-width: 1200px;
+    width: 100%;
+    padding: 100px 0 300px 0;
+}
+
+.city_prod-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.city_prod-title {
+    font-weight: 800;
+}
+
+.services-one {
+    background-color: var(--city-black);
+}
+
+.city_prod-card {
+    background-color: var(--city-graphite);
+    max-width: 350px;
+    width: 100%;
+    height: 500px;
+    transition: 0.2s ease-in-out;
+    border-radius: 3px;
+}
+
+.city_prod-card:hover {
+    background-color: var(--city-green);
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card:hover .city_prod-card-modality {
+    color: var(--city-blue);
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card:hover .city_prod-card-title h1 {
+    color: var(--city-black);
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card:hover .city_prod-card-title::after {
+    background-color: var(--city-blue);
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card:hover .city_prod-card-desc {
+    color: var(--city-black);
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card:hover .city_prod-card-button {
+    background-color: var(--city-blue);
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card-wpp img {
+    max-width: 350px;
+    width: 100%;
+    height: 200px;
+    border-radius: 3px 3px 0 0;
+}
+
+.city_prod-card-body {
+    padding: 20px;
+}
+
+.city_prod-card-modality {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card-title {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.city_prod-card-title h1 {
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card-title::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--city-green);
+    bottom: -20px;
+    left: 0;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card-title h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.city_prod-card-desc {
+    font-size: 1rem;
+    line-height: 20px;
+    color: var(--city-green);
+    margin-bottom: 15px;
+    transition: 0.2s ease-in-out;
+    height: 60px;
+}
+
+.city_prod-card-button {
+    border: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 25px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.city_prod-card-button:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
 .case-details__content {
     color: white;
 }

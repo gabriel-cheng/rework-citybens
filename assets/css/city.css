@@ -6,6 +6,7 @@
 @import url("./home_sections/box_help.css");
 @import url("./institucional/institucional.css");
 @import url("./produtos/produtos.css");
+@import url("./cases/cases.css");
 
 :root {
     --city-black: #121212;
