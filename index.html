@@ -65,7 +65,7 @@
                                     <a href="/institucional.html">Institucional</a>
                                 </li>
                                 <li class="dropdown">
-                                    <a>Produtos</a>
+                                    <a href="/produtos.html">Produtos</a>
                                     <ul>
                                         <li><a href="aeronaves.html">Aeronaves</a></li>
                                         <li><a href="agronegocio.html">Agronegócio</a></li>
@@ -166,7 +166,7 @@
                         <p>No mês de julho, foram</p>
                     </div>
                     <div class="city_our-numbers-value">
-                        <h1>R$ 119.147.650,10</h1>
+                        <h1 id="city_our-numbers-number">R$ 119.147.650,10</h1>
                     </div>
                     <div class="city_our-numbers-text-2">
                         <p>em créditos contemplados, distribuidos entre</p>
@@ -600,13 +600,24 @@
     <script src="assets/vendors/vegas/vegas.min.js"></script>
     <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
     <script src="assets/vendors/timepicker/timePicker.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
 
 
     <!-- template js -->
     <script src="assets/js/oslim.js"></script>
     <script>
+        window.addEventListener("scroll", () => {
+            console.log(window.scrollY);
+
+            if(window.scrollY == 600) {
+                gsap.from("#city_our-numbers-number", {
+                    innerText: 0,
+                    duration: 1,
+                });
+            }
+        });
+
         document.addEventListener("DOMContentLoaded", () => {
             const footer_city_info = document.querySelector("#footer_city_infos");
             const year = new Date().getFullYear();
