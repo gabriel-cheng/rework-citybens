@@ -7,6 +7,7 @@
 @import url("./institucional/institucional.css");
 @import url("./produtos/produtos.css");
 @import url("./cases/cases.css");
+@import url("./cases/modal.css");
 @import url("./contato/contato.css");
 
 :root {
