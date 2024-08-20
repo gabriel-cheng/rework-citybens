@@ -145,6 +145,12 @@ p {
     background-color: var(--city-black);
 }
 
+@media screen and (max-width: 432px) {
+    .main-slider__content > p {
+        font-size: 1.5rem !important;
+    }
+}
+
 @media screen and (max-width: 592px) {
     .main-slider__content > p {
         font-size: 7vw;
@@ -164,6 +170,17 @@ p {
     }
     .image-layer {
         background-image: url(../images/backgrounds/city_banner_responsivo_inicial_alt.jpg);
+    }
+
+    .main-slider__content > p {
+        line-height: 2rem;
+        color: white;
+        margin: 0 0 10px 0;
+        font-size: 1.8rem;
+    }
+
+    .city_home-margin-fix {
+        margin-top: 160px;
     }
 }
 
